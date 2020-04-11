@@ -1,0 +1,18 @@
+# All-in-one package that can pre-install libraries useful for machine learning
+# in addition to Python.
+
+# Anaconda
+https://www.anaconda.com/download/
+
+# Start up Anaconda prompt
+# OpenCV
+pip install opencv-python
+
+# TensorFlow
+pip install --upgrade tensorflow==2.1.0
+
+# Keras
+pip install --upgrade keras==2.1.4
+
+
+ 

@@ -1,0 +1,8 @@
+http://enakai00.hatenablog.com/entry/2016/03/28/131157
+
+Docker Hubで公開しているイメージを用いて起動する場合は、次のコマンドになります。環境変数PASSWORDには、ログインパスワードを指定します。
+
+# docker run -itd --name jupyter -p 8888:8888 -e PASSWORD=hogehoge enakai00/jupyter_tensorflow:latest
+
+この後、Webブラウザから「http://localhost:8888」にアクセスして、先ほど設定したパスワードを入力すると、Jupyterが利用できます。
+GitHubから入手したノートブックは、Filesタブの「Upload」で環境にアップロードして使用することができます。
